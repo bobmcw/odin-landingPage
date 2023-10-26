@@ -22,9 +22,31 @@ ul.links{
     flex-direction: row;
     gap: 10px;
 }
-.midPart{
+.topPart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
     background-color: #1f2937;
     color: white;
+    padding-bottom: 50px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+}
+.infoHeader{
+    margin: 0px;
+}
+img.promotional{
+    width: 300px;
+    height: 150px;
+    border-radius: 30px;
+}
+.midPart{
+    background-color: #F9FAF8;
 }
 img.picture{
     width: 200px;
