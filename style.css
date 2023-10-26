@@ -1,0 +1,22 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.header{
+    background-color: teal;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 0px;
+}
+ul.links{
+    color: lightgray;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
