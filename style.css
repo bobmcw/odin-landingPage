@@ -2,9 +2,11 @@ body{
     width: 100%;
     height: 100%;
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 .header{
-    background-color: teal;
+    background-color: #1f2937;
     color: white;
     display: flex;
     flex-direction: row;
@@ -19,4 +21,34 @@ ul.links{
     display: flex;
     flex-direction: row;
     gap: 10px;
+}
+.topPart{
+    background-color: #1f2937;
+    color: white;
+}
+img.picture{
+    width: 200px;
+    height: 200px;
+    border: solid cyan;
+    border-radius: 20px;
+}
+.pictures{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p.subtext{
+    padding: 0;
+    margin-top: 5;
+}
+.headline{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
