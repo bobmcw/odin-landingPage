@@ -11,8 +11,9 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 15px;
+    padding-top: 0px;
     margin: 0px;
 }
 ul.links{
@@ -81,4 +82,22 @@ p.subtext{
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+.bottomPart{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10%;
+    background-color: lightgray;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+    font-size: 30px;
+}
+.author{
+    align-self: flex-end;
+    font-size: 20px;
+    font-weight: bold;
 }
