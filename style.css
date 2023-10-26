@@ -22,7 +22,7 @@ ul.links{
     flex-direction: row;
     gap: 10px;
 }
-.topPart{
+.midPart{
     background-color: #1f2937;
     color: white;
 }
