@@ -40,6 +40,14 @@ ul.links{
 .infoHeader{
     margin: 0px;
 }
+.signUp{
+    width: 30%;
+    background-color: #3882F8;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+}
 img.promotional{
     width: 300px;
     height: 150px;
