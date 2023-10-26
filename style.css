@@ -1,3 +1,6 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 body{
     width: 100%;
     height: 100%;
@@ -49,6 +52,10 @@ ul.links{
     border-radius: 8px;
     padding: 10px;
 }
+.signUp:hover{
+    background-color: white;
+    color: black;
+}
 img.promotional{
     width: 300px;
     height: 150px;
@@ -62,6 +69,7 @@ img.picture{
     height: 200px;
     border: solid cyan;
     border-radius: 20px;
+    
 }
 .pictures{
     display: flex;
@@ -114,7 +122,7 @@ p.subtext{
     border-radius: 5px;
     justify-content: space-around;
     color: white;
-    
+    padding: 5%;
 }
 .prompt-text{
     display: block;
@@ -130,6 +138,18 @@ p.dunno{
     background-color: transparent;
     border: solid white 1px;
     align-self: center;
-    padding: 10px 30px;
+    padding: 20px 40px;
     border-radius: 15px;    
+}
+.signUp2:hover{
+    background-color: white;
+    color: black;
+}
+img.logo{
+    width: 75px;
+    height: 75px;
+}
+a.link{
+    text-decoration: none;
+    color: white;
 }
